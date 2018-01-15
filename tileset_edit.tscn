@@ -124,15 +124,17 @@ region_rect = Rect2( 311, 760, 197, 151 )
 
 [node name="Lamiinate" type="Sprite" parent="."]
 
+visibility/light_mask = 524289
 material/material = ExtResource( 1 )
-transform/pos = Vector2( 481.392, 110.089 )
+transform/pos = Vector2( 396.24, 121.034 )
 texture = ExtResource( 2 )
 offset = Vector2( 0, 28 )
 region = true
-region_rect = Rect2( 591, 772, 197, 151 )
+region_rect = Rect2( 638, 802, 94, 90 )
 
 [node name="block" type="Sprite" parent="."]
 
+editor/display_folded = true
 material/material = ExtResource( 3 )
 transform/pos = Vector2( 569, -97 )
 texture = ExtResource( 2 )
@@ -167,6 +169,7 @@ light_mask = 1
 
 [node name="q_right" type="Sprite" parent="."]
 
+editor/display_folded = true
 material/material = ExtResource( 3 )
 transform/pos = Vector2( 336, -154 )
 texture = ExtResource( 2 )
@@ -201,6 +204,7 @@ light_mask = 1
 
 [node name="q_left" type="Sprite" parent="."]
 
+editor/display_folded = true
 material/material = ExtResource( 3 )
 transform/pos = Vector2( 96, -110 )
 texture = ExtResource( 2 )
@@ -210,6 +214,7 @@ region_rect = Rect2( 292, 528, 139, 178 )
 
 [node name="collision1" type="StaticBody2D" parent="q_left"]
 
+editor/display_folded = true
 input/pickable = false
 shapes/0/shape = SubResource( 5 )
 shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )

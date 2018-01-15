@@ -4,13 +4,13 @@
 [ext_resource path="res://faceColor.png" type="Texture" id=2]
 [ext_resource path="res://wall_shader.tres" type="CanvasItemMaterial" id=3]
 
-[sub_resource type="OccluderPolygon2D" id=4]
+[sub_resource type="OccluderPolygon2D" id=1]
 
 closed = false
 cull_mode = 0
 polygon = Vector2Array( 0, -22, 48, 0 )
 
-[sub_resource type="ConvexPolygonShape2D" id=5]
+[sub_resource type="ConvexPolygonShape2D" id=2]
 
 custom_solver_bias = 0.0
 points = Vector2Array( 48, 0, 0, -22, 0, -44, 48, -22 )
@@ -23,90 +23,90 @@ size = Vector2( 0, 0 )
 storage = 0
 lossy_quality = 0.7
 
-[sub_resource type="OccluderPolygon2D" id=6]
+[sub_resource type="OccluderPolygon2D" id=4]
 
 closed = false
 cull_mode = 0
 polygon = Vector2Array( -48, 0, 0, 22, 48, 0 )
 
-[sub_resource type="ConvexPolygonShape2D" id=7]
+[sub_resource type="ConvexPolygonShape2D" id=5]
 
 custom_solver_bias = 0.0
 points = Vector2Array( -48, 0, 0, -22, 48, 0, 0, 22 )
 
-[sub_resource type="OccluderPolygon2D" id=8]
+[sub_resource type="OccluderPolygon2D" id=6]
 
 closed = false
 cull_mode = 0
 polygon = Vector2Array( 0, -22, 48, 0, 0, 22 )
 
-[sub_resource type="ConvexPolygonShape2D" id=9]
+[sub_resource type="ConvexPolygonShape2D" id=7]
 
 custom_solver_bias = 0.0
 points = Vector2Array( 48, 0, 0, 22, 0, -22 )
 
-[sub_resource type="OccluderPolygon2D" id=10]
+[sub_resource type="OccluderPolygon2D" id=8]
 
 closed = false
 cull_mode = 0
 polygon = Vector2Array( 0, -22, -48, 0, 0, 22 )
 
-[sub_resource type="ConvexPolygonShape2D" id=11]
+[sub_resource type="ConvexPolygonShape2D" id=9]
 
 custom_solver_bias = 0.0
 points = Vector2Array( -48, 0, 0, -22, 0, 22 )
 
-[sub_resource type="OccluderPolygon2D" id=12]
+[sub_resource type="OccluderPolygon2D" id=10]
 
 closed = false
 cull_mode = 0
 polygon = Vector2Array( -48, 0, 0, -22, 48, 0 )
 
-[sub_resource type="ConvexPolygonShape2D" id=13]
+[sub_resource type="ConvexPolygonShape2D" id=11]
 
 custom_solver_bias = 0.0
 points = Vector2Array( 0, -22, 48, 0, -48, 0 )
 
-[sub_resource type="OccluderPolygon2D" id=14]
+[sub_resource type="OccluderPolygon2D" id=12]
 
 closed = false
 cull_mode = 0
 polygon = Vector2Array( -48, 0, 0, 22, 48, 0 )
 
-[sub_resource type="ConvexPolygonShape2D" id=15]
+[sub_resource type="ConvexPolygonShape2D" id=13]
 
 custom_solver_bias = 0.0
 points = Vector2Array( 48, 0, 0, 22, -48, 0 )
 
-[sub_resource type="OccluderPolygon2D" id=16]
+[sub_resource type="OccluderPolygon2D" id=14]
 
 closed = false
 cull_mode = 0
 polygon = Vector2Array( 0, 22, 48, 0 )
 
-[sub_resource type="ConvexPolygonShape2D" id=17]
+[sub_resource type="ConvexPolygonShape2D" id=15]
 
 custom_solver_bias = 0.0
 points = Vector2Array( 0, 22, 0, 0, 48, -22, 48, 0 )
 
-[sub_resource type="OccluderPolygon2D" id=18]
+[sub_resource type="OccluderPolygon2D" id=16]
 
 closed = false
 cull_mode = 0
 polygon = Vector2Array( -48, 0, 0, 22 )
 
-[sub_resource type="ConvexPolygonShape2D" id=19]
+[sub_resource type="ConvexPolygonShape2D" id=17]
 
 custom_solver_bias = 0.0
 points = Vector2Array( -48, -22, 0, 0, 0, 22, -48, 0 )
 
-[sub_resource type="OccluderPolygon2D" id=20]
+[sub_resource type="OccluderPolygon2D" id=18]
 
 closed = false
 cull_mode = 0
 polygon = Vector2Array( -48, 0, 0, -22 )
 
-[sub_resource type="ConvexPolygonShape2D" id=21]
+[sub_resource type="ConvexPolygonShape2D" id=19]
 
 custom_solver_bias = 0.0
 points = Vector2Array( 0, -44, 0, -22, -48, 0, -48, -22 )
@@ -125,14 +125,14 @@ points = Vector2Array( 0, -44, 0, -22, -48, 0, -48, -22 )
 0/shapes = [  ]
 0/one_way_collision_direction = Vector2( 0, 0 )
 0/one_way_collision_max_depth = 0.0
-1/name = "floor2"
+1/name = "Lamiinate"
 1/texture = ExtResource( 2 )
-1/tex_offset = Vector2( 0, 28 )
+1/tex_offset = Vector2( 0, 14 )
 1/material = ExtResource( 1 )
 1/modulate = Color( 1, 1, 1, 1 )
-1/region = Rect2( 591, 772, 197, 151 )
-1/occluder_offset = Vector2( 98.5, 75.5 )
-1/navigation_offset = Vector2( 98.5, 75.5 )
+1/region = Rect2( 638, 802, 94, 90 )
+1/occluder_offset = Vector2( 47, 45 )
+1/navigation_offset = Vector2( 47, 45 )
 1/shape_offset = Vector2( 0, 0 )
 1/shapes = [  ]
 1/one_way_collision_direction = Vector2( 0, 0 )
@@ -144,10 +144,10 @@ points = Vector2Array( 0, -44, 0, -22, -48, 0, -48, -22 )
 2/modulate = Color( 1, 1, 1, 1 )
 2/region = Rect2( 844, 527, 138, 180 )
 2/occluder_offset = Vector2( 69, 90 )
-2/occluder = SubResource( 6 )
+2/occluder = SubResource( 4 )
 2/navigation_offset = Vector2( 69, 90 )
 2/shape_offset = Vector2( 69, 90 )
-2/shapes = [ SubResource( 7 ) ]
+2/shapes = [ SubResource( 5 ) ]
 2/one_way_collision_direction = Vector2( 0, 0 )
 2/one_way_collision_max_depth = 0.0
 3/name = "q_right"
@@ -157,10 +157,10 @@ points = Vector2Array( 0, -44, 0, -22, -48, 0, -48, -22 )
 3/modulate = Color( 1, 1, 1, 1 )
 3/region = Rect2( 665, 528, 139, 178 )
 3/occluder_offset = Vector2( 69.5, 89 )
-3/occluder = SubResource( 8 )
+3/occluder = SubResource( 6 )
 3/navigation_offset = Vector2( 69.5, 89 )
 3/shape_offset = Vector2( 69.5, 89 )
-3/shapes = [ SubResource( 9 ) ]
+3/shapes = [ SubResource( 7 ) ]
 3/one_way_collision_direction = Vector2( 0, 0 )
 3/one_way_collision_max_depth = 0.0
 4/name = "q_left"
@@ -170,10 +170,10 @@ points = Vector2Array( 0, -44, 0, -22, -48, 0, -48, -22 )
 4/modulate = Color( 1, 1, 1, 1 )
 4/region = Rect2( 292, 528, 139, 178 )
 4/occluder_offset = Vector2( 69.5, 89 )
-4/occluder = SubResource( 10 )
+4/occluder = SubResource( 8 )
 4/navigation_offset = Vector2( 69.5, 89 )
 4/shape_offset = Vector2( 69.5, 89 )
-4/shapes = [ SubResource( 11 ) ]
+4/shapes = [ SubResource( 9 ) ]
 4/one_way_collision_direction = Vector2( 0, 0 )
 4/one_way_collision_max_depth = 0.0
 5/name = "q_top"
@@ -183,10 +183,10 @@ points = Vector2Array( 0, -44, 0, -22, -48, 0, -48, -22 )
 5/modulate = Color( 1, 1, 1, 1 )
 5/region = Rect2( 479, 528, 139, 178 )
 5/occluder_offset = Vector2( 69.5, 89 )
-5/occluder = SubResource( 12 )
+5/occluder = SubResource( 10 )
 5/navigation_offset = Vector2( 69.5, 89 )
 5/shape_offset = Vector2( 69.5, 89 )
-5/shapes = [ SubResource( 13 ) ]
+5/shapes = [ SubResource( 11 ) ]
 5/one_way_collision_direction = Vector2( 0, 0 )
 5/one_way_collision_max_depth = 0.0
 6/name = "q_bottom"
@@ -196,10 +196,10 @@ points = Vector2Array( 0, -44, 0, -22, -48, 0, -48, -22 )
 6/modulate = Color( 1, 1, 1, 1 )
 6/region = Rect2( 103, 528, 139, 178 )
 6/occluder_offset = Vector2( 69.5, 89 )
-6/occluder = SubResource( 14 )
+6/occluder = SubResource( 12 )
 6/navigation_offset = Vector2( 69.5, 89 )
 6/shape_offset = Vector2( 69.5, 89 )
-6/shapes = [ SubResource( 15 ) ]
+6/shapes = [ SubResource( 13 ) ]
 6/one_way_collision_direction = Vector2( 0, 0 )
 6/one_way_collision_max_depth = 0.0
 7/name = "s_right_bottom"
@@ -209,10 +209,10 @@ points = Vector2Array( 0, -44, 0, -22, -48, 0, -48, -22 )
 7/modulate = Color( 1, 1, 1, 1 )
 7/region = Rect2( 480, 350, 139, 178 )
 7/occluder_offset = Vector2( 69.5, 89 )
-7/occluder = SubResource( 16 )
+7/occluder = SubResource( 14 )
 7/navigation_offset = Vector2( 69.5, 89 )
 7/shape_offset = Vector2( 69.5, 89 )
-7/shapes = [ SubResource( 17 ) ]
+7/shapes = [ SubResource( 15 ) ]
 7/one_way_collision_direction = Vector2( 0, 0 )
 7/one_way_collision_max_depth = 0.0
 8/name = "s_left_bottom"
@@ -222,10 +222,10 @@ points = Vector2Array( 0, -44, 0, -22, -48, 0, -48, -22 )
 8/modulate = Color( 1, 1, 1, 1 )
 8/region = Rect2( 665, 350, 139, 178 )
 8/occluder_offset = Vector2( 69.5, 89 )
-8/occluder = SubResource( 18 )
+8/occluder = SubResource( 16 )
 8/navigation_offset = Vector2( 69.5, 89 )
 8/shape_offset = Vector2( 69.5, 89 )
-8/shapes = [ SubResource( 19 ) ]
+8/shapes = [ SubResource( 17 ) ]
 8/one_way_collision_direction = Vector2( 0, 0 )
 8/one_way_collision_max_depth = 0.0
 9/name = "s_left_top"
@@ -235,10 +235,10 @@ points = Vector2Array( 0, -44, 0, -22, -48, 0, -48, -22 )
 9/modulate = Color( 1, 1, 1, 1 )
 9/region = Rect2( 292, 350, 139, 178 )
 9/occluder_offset = Vector2( 69.5, 89 )
-9/occluder = SubResource( 20 )
+9/occluder = SubResource( 18 )
 9/navigation_offset = Vector2( 69.5, 89 )
 9/shape_offset = Vector2( 69.5, 89 )
-9/shapes = [ SubResource( 21 ) ]
+9/shapes = [ SubResource( 19 ) ]
 9/one_way_collision_direction = Vector2( 0, 0 )
 9/one_way_collision_max_depth = 0.0
 10/name = "s_right_top"
@@ -248,33 +248,21 @@ points = Vector2Array( 0, -44, 0, -22, -48, 0, -48, -22 )
 10/modulate = Color( 1, 1, 1, 1 )
 10/region = Rect2( 842, 350, 139, 178 )
 10/occluder_offset = Vector2( 69.5, 89 )
-10/occluder = SubResource( 4 )
+10/occluder = SubResource( 1 )
 10/navigation_offset = Vector2( 69.5, 89 )
 10/shape_offset = Vector2( 69.5, 89 )
-10/shapes = [ SubResource( 5 ) ]
+10/shapes = [ SubResource( 2 ) ]
 10/one_way_collision_direction = Vector2( 0, 0 )
 10/one_way_collision_max_depth = 0.0
-11/name = "Lamiinate"
-11/texture = ExtResource( 2 )
-11/tex_offset = Vector2( 0, 14 )
-11/material = ExtResource( 1 )
+11/name = "Sprite"
+11/texture = SubResource( 3 )
+11/tex_offset = Vector2( 0, 0 )
 11/modulate = Color( 1, 1, 1, 1 )
-11/region = Rect2( 638, 802, 94, 90 )
-11/occluder_offset = Vector2( 47, 45 )
-11/navigation_offset = Vector2( 47, 45 )
+11/region = Rect2( 0, 0, 0, 0 )
+11/occluder_offset = Vector2( 0, 0 )
+11/navigation_offset = Vector2( 0, 0 )
 11/shape_offset = Vector2( 0, 0 )
 11/shapes = [  ]
 11/one_way_collision_direction = Vector2( 0, 0 )
 11/one_way_collision_max_depth = 0.0
-12/name = "Sprite"
-12/texture = SubResource( 3 )
-12/tex_offset = Vector2( 0, 0 )
-12/modulate = Color( 1, 1, 1, 1 )
-12/region = Rect2( 0, 0, 0, 0 )
-12/occluder_offset = Vector2( 0, 0 )
-12/navigation_offset = Vector2( 0, 0 )
-12/shape_offset = Vector2( 0, 0 )
-12/shapes = [  ]
-12/one_way_collision_direction = Vector2( 0, 0 )
-12/one_way_collision_max_depth = 0.0
 
