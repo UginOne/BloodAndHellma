@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/BloodAndHellma.unity
+- path: Assets/2d.unity
   isLoaded: 1
   isActive: 1
