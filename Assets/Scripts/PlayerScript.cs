@@ -7,18 +7,18 @@ public class PlayerScript : MonoBehaviour {
     [SerializeField]
     float moveSpeed = 4f;
     private Vector2 direction;
-   
+                                 
+
     // Use this for initialization
     void Start()
-    {
-
+    {                                      
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         if (Input.anyKey)
-            Move();
+            Move();                              
     }
 
     void Move()
@@ -27,6 +27,6 @@ public class PlayerScript : MonoBehaviour {
             moveSpeed * Time.deltaTime * Input.GetAxis("VerticalKey"),
             0);
 
-        transform.Translate(movement);
+        transform.Translate(movement);   
     }
 }
