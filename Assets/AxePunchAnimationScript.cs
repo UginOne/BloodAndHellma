@@ -22,10 +22,11 @@ public class AxePunchAnimationScript : StateMachineBehaviour {
         var direction = new Vector2(x1, y1);
         var position = new Vector2(x, y);
         Debug.Log(position + " " + direction + " ");
-        hit = Physics2D.Raycast(position, direction, 0.1f);
+        hit = Physics2D.Raycast(position, direction, 1.1f);
 
         if (hit.collider != null && hit.collider.gameObject != null)
         {
+            Debug.Log(hit.collider);
             if (hit.collider.gameObject.tag == "destroy")
                 Destroy(hit.collider.gameObject);
         }
