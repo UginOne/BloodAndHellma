@@ -52,8 +52,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AxePunchAnimationScript.cs" />
+     <Compile Include="Assets\MenuCtrl.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\DoorOpenSound.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScript.cs" />
      <Compile Include="Assets\Scripts\PlayerAnimationScript.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\PunchAnimatorScript.cs" />
