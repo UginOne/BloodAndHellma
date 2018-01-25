@@ -27,6 +27,16 @@ public class AxePunchAnimationScript : StateMachineBehaviour {
         if (hit.collider != null && hit.collider.gameObject != null)
         {
             Debug.Log(hit.collider);
+            if (hit.collider.gameObject.tag == "glass_wall"){
+                var glassWalls = GameObject.Find("Glass_Walls");
+                var wallsScript = glassWalls.GetComponent<GlassWallScript>();
+                if (wallsScript.DestroyedSprite != null)
+                {
+                    hit.collider.gameObject.GetComponent<SpriteRenderer>().sprite = wallsScript.DestroyedSprite;
+                    hit.collider.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+                }
+            }
+
             if (hit.collider.gameObject.tag == "destroy")
                 Destroy(hit.collider.gameObject);
         }
