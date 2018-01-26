@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.Interfaces;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -27,18 +28,11 @@ public class AxePunchAnimationScript : StateMachineBehaviour {
         if (hit.collider != null && hit.collider.gameObject != null)
         {
             Debug.Log(hit.collider);
-            if (hit.collider.gameObject.tag == "glass_wall"){
-                var glassWalls = GameObject.Find("Glass_Walls");
-                var wallsScript = glassWalls.GetComponent<GlassWallScript>();
-                if (wallsScript.DestroyedSprite != null)
-                {
-                    hit.collider.gameObject.GetComponent<SpriteRenderer>().sprite = wallsScript.DestroyedSprite;
-                    hit.collider.gameObject.GetComponent<BoxCollider2D>().enabled = false;
-                }
+            var destroyable = hit.collider.gameObject.GetComponent<IDestroyable>();
+            if (destroyable != null)
+            {
+                destroyable.Hit();
             }
-
-            if (hit.collider.gameObject.tag == "destroy")
-                Destroy(hit.collider.gameObject);
         }
     }
 
