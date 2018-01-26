@@ -32,7 +32,7 @@ namespace Assets.Scripts
             if (!destroyed && destroyedSprite != null)
             {
                 gameObject.GetComponent<SpriteRenderer>().sprite = destroyedSprite;
-                gameObject.GetComponent<BoxCollider2D>().enabled = false;
+                gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
                 destroyed = true;
             }
         }
