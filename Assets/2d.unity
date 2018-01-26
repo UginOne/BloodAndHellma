@@ -734,6 +734,7 @@ GameObject:
   - component: {fileID: 229678801}
   - component: {fileID: 229678802}
   - component: {fileID: 229678803}
+  - component: {fileID: 229678804}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_4
   m_TagString: glass_wall
@@ -843,6 +844,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.29}
   m_EdgeRadius: 0
+--- !u!114 &229678804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 229678799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!1 &313904031
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,7 +867,6 @@ GameObject:
   - component: {fileID: 313904032}
   - component: {fileID: 313904036}
   - component: {fileID: 313904037}
-  - component: {fileID: 313904035}
   - component: {fileID: 313904034}
   - component: {fileID: 313904038}
   - component: {fileID: 313904039}
@@ -916,7 +928,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 313904031}
   m_LocalRotation: {x: -0, y: -0.07384749, z: -0, w: 0.9972696}
-  m_LocalPosition: {x: 0.0569, y: -0.97, z: -0.3536}
+  m_LocalPosition: {x: 0.073, y: -0.976, z: -0.35}
   m_LocalScale: {x: 3, y: 3, z: 5}
   m_Children:
   - {fileID: 1308645685}
@@ -935,60 +947,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: -0.02, y: -0.03}
+  m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.13, y: 0.23}
   m_Direction: 0
---- !u!60 &313904035
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 313904031}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.34, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.3592565, y: 0.3702934}
-    oldSize: {x: 0.17, y: 0.31}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.14, y: -0.19999999}
-      - {x: 0.28, y: -0.26999998}
-      - {x: 0.5, y: -0.25}
-      - {x: 0.69, y: -0.21}
-      - {x: 0.75, y: -0.13}
-      - {x: 0.82, y: -0.02}
-      - {x: 0.82, y: 0.03}
-      - {x: 0.79999995, y: 0.03}
-      - {x: 0.76, y: 0.04}
-      - {x: 0.53999996, y: 0.089999996}
-      - {x: 0.44, y: 0.089999996}
-      - {x: 0.34, y: 0.26999998}
-      - {x: 0.16, y: 0.47}
-      - {x: -0.13, y: 0.47}
-      - {x: -0.35, y: 0.35999998}
-      - {x: -0.57, y: 0.19999999}
-      - {x: -0.79999995, y: -0.04}
-      - {x: -0.79999995, y: -0.19999999}
-      - {x: -0.51, y: -0.48}
-      - {x: -0.25, y: -0.48}
-      - {x: -0.12, y: -0.41}
-      - {x: -0.03, y: -0.35}
-      - {x: 0.089999996, y: -0.25}
-    - - {x: 0.55, y: -0.099999994}
-      - {x: 0.57, y: -0.099999994}
-      - {x: 0.57, y: -0.12}
-      - {x: 0.55, y: -0.12}
 --- !u!50 &313904036
 Rigidbody2D:
   serializedVersion: 4
@@ -1335,6 +1296,7 @@ GameObject:
   - component: {fileID: 415514545}
   - component: {fileID: 415514546}
   - component: {fileID: 415514547}
+  - component: {fileID: 415514548}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_1
   m_TagString: glass_wall
@@ -1444,6 +1406,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.29}
   m_EdgeRadius: 0
+--- !u!114 &415514548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 415514543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!1 &422198300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1456,6 +1430,7 @@ GameObject:
   - component: {fileID: 422198302}
   - component: {fileID: 422198305}
   - component: {fileID: 422198304}
+  - component: {fileID: 422198306}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_Window (12)
   m_TagString: Untagged
@@ -1487,7 +1462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!212 &422198303
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1577,6 +1552,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &422198306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 422198300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 0}
 --- !u!1 &458835543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,6 +2372,7 @@ GameObject:
   - component: {fileID: 594748307}
   - component: {fileID: 594748310}
   - component: {fileID: 594748309}
+  - component: {fileID: 594748311}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_Window (2)
   m_TagString: Untagged
@@ -2416,7 +2404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!212 &594748308
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2506,6 +2494,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &594748311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 594748305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 0}
 --- !u!1 &626625196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2518,6 +2518,7 @@ GameObject:
   - component: {fileID: 626625198}
   - component: {fileID: 626625201}
   - component: {fileID: 626625200}
+  - component: {fileID: 626625202}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_Window (10)
   m_TagString: Untagged
@@ -2549,7 +2550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!212 &626625199
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2639,6 +2640,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &626625202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 626625196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 0}
 --- !u!1 &642216639
 GameObject:
   m_ObjectHideFlags: 0
@@ -2651,6 +2664,7 @@ GameObject:
   - component: {fileID: 642216641}
   - component: {fileID: 642216644}
   - component: {fileID: 642216643}
+  - component: {fileID: 642216645}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_Window (9)
   m_TagString: Untagged
@@ -2682,7 +2696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!212 &642216642
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2772,6 +2786,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &642216645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 642216639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 0}
 --- !u!1 &649448790
 GameObject:
   m_ObjectHideFlags: 0
@@ -2784,6 +2810,7 @@ GameObject:
   - component: {fileID: 649448792}
   - component: {fileID: 649448795}
   - component: {fileID: 649448794}
+  - component: {fileID: 649448796}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_Window (3)
   m_TagString: Untagged
@@ -2815,7 +2842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!212 &649448793
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2905,6 +2932,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &649448796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 649448790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 0}
 --- !u!1 &672640552
 GameObject:
   m_ObjectHideFlags: 0
@@ -2917,6 +2956,7 @@ GameObject:
   - component: {fileID: 672640554}
   - component: {fileID: 672640557}
   - component: {fileID: 672640556}
+  - component: {fileID: 672640558}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_Window (7)
   m_TagString: Untagged
@@ -2948,7 +2988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!212 &672640555
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3038,6 +3078,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &672640558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 672640552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 0}
 --- !u!1 &687156583
 GameObject:
   m_ObjectHideFlags: 0
@@ -4528,6 +4580,7 @@ GameObject:
   - component: {fileID: 876868997}
   - component: {fileID: 876869000}
   - component: {fileID: 876868999}
+  - component: {fileID: 876869001}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_Window (1)
   m_TagString: Untagged
@@ -4559,7 +4612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!212 &876868998
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4649,6 +4702,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &876869001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876868995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 0}
 --- !u!1 &905142114
 GameObject:
   m_ObjectHideFlags: 0
@@ -20591,6 +20656,7 @@ GameObject:
   - component: {fileID: 1085392518}
   - component: {fileID: 1085392521}
   - component: {fileID: 1085392520}
+  - component: {fileID: 1085392522}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_Window (11)
   m_TagString: Untagged
@@ -20622,7 +20688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!212 &1085392519
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20712,6 +20778,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1085392522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1085392516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 0}
 --- !u!1 &1101992063
 GameObject:
   m_ObjectHideFlags: 0
@@ -20724,6 +20802,7 @@ GameObject:
   - component: {fileID: 1101992066}
   - component: {fileID: 1101992065}
   - component: {fileID: 1101992068}
+  - component: {fileID: 1101992069}
   m_Layer: 0
   m_Name: Glass_Wall_Door
   m_TagString: glass_wall
@@ -20856,6 +20935,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.29}
   m_EdgeRadius: 0
+--- !u!114 &1101992069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1101992063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!1 &1103302239
 GameObject:
   m_ObjectHideFlags: 0
@@ -20868,6 +20959,7 @@ GameObject:
   - component: {fileID: 1103302241}
   - component: {fileID: 1103302244}
   - component: {fileID: 1103302243}
+  - component: {fileID: 1103302245}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_Window (4)
   m_TagString: Untagged
@@ -20899,7 +20991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!212 &1103302242
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20989,6 +21081,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1103302245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1103302239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 0}
 --- !u!1 &1121995380
 GameObject:
   m_ObjectHideFlags: 0
@@ -28326,6 +28430,7 @@ GameObject:
   - component: {fileID: 1208503616}
   - component: {fileID: 1208503619}
   - component: {fileID: 1208503618}
+  - component: {fileID: 1208503620}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_Window (5)
   m_TagString: Untagged
@@ -28357,7 +28462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!212 &1208503617
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28447,6 +28552,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1208503620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1208503614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 0}
 --- !u!1 &1254403610
 GameObject:
   m_ObjectHideFlags: 0
@@ -28458,6 +28575,7 @@ GameObject:
   - component: {fileID: 1254403613}
   - component: {fileID: 1254403612}
   - component: {fileID: 1254403614}
+  - component: {fileID: 1254403615}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_5
   m_TagString: glass_wall
@@ -28567,6 +28685,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.29}
   m_EdgeRadius: 0
+--- !u!114 &1254403615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1254403610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!1 &1267136570
 GameObject:
   m_ObjectHideFlags: 0
@@ -28578,6 +28708,7 @@ GameObject:
   - component: {fileID: 1267136572}
   - component: {fileID: 1267136573}
   - component: {fileID: 1267136574}
+  - component: {fileID: 1267136575}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_2
   m_TagString: glass_wall
@@ -28687,6 +28818,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.29}
   m_EdgeRadius: 0
+--- !u!114 &1267136575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1267136570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!1 &1292113239
 GameObject:
   m_ObjectHideFlags: 0
@@ -28921,6 +29064,7 @@ GameObject:
   - component: {fileID: 1359437724}
   - component: {fileID: 1359437727}
   - component: {fileID: 1359437726}
+  - component: {fileID: 1359437728}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_Window (8)
   m_TagString: Untagged
@@ -28952,7 +29096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!212 &1359437725
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29042,6 +29186,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1359437728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1359437722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 0}
 --- !u!1 &1383241609
 GameObject:
   m_ObjectHideFlags: 0
@@ -29274,12 +29430,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1588164887}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
+  destroyedSprite: {fileID: 0}
 --- !u!1 &1694454693
 GameObject:
   m_ObjectHideFlags: 0
@@ -29291,6 +29447,7 @@ GameObject:
   - component: {fileID: 1694454695}
   - component: {fileID: 1694454696}
   - component: {fileID: 1694454697}
+  - component: {fileID: 1694454698}
   m_Layer: 0
   m_Name: Glass_Wall_Obj
   m_TagString: glass_wall
@@ -29400,6 +29557,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.29}
   m_EdgeRadius: 0
+--- !u!114 &1694454698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1694454693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!1 &1747001745
 GameObject:
   m_ObjectHideFlags: 0
@@ -29501,6 +29670,7 @@ GameObject:
   - component: {fileID: 1770211203}
   - component: {fileID: 1770211206}
   - component: {fileID: 1770211205}
+  - component: {fileID: 1770211207}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_Window (6)
   m_TagString: Untagged
@@ -29532,7 +29702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!212 &1770211204
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29622,6 +29792,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1770211207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1770211201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 0}
 --- !u!1 &1820838719
 GameObject:
   m_ObjectHideFlags: 0
@@ -29633,6 +29815,7 @@ GameObject:
   - component: {fileID: 1820838721}
   - component: {fileID: 1820838722}
   - component: {fileID: 1820838723}
+  - component: {fileID: 1820838724}
   m_Layer: 0
   m_Name: Glass_Wall_Obj_3
   m_TagString: glass_wall
@@ -29742,6 +29925,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.29}
   m_EdgeRadius: 0
+--- !u!114 &1820838724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1820838719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5f083747615da419fbc1fa4a74bce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedSprite: {fileID: 21300000, guid: 82d711fc115a41b4a8842d71a195470c, type: 3}
 --- !u!1 &1857423180
 GameObject:
   m_ObjectHideFlags: 0
