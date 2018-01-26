@@ -10,13 +10,31 @@ namespace Assets.Scripts
     public class ToiletScript : MonoBehaviour, IDestroyable
     {
         public Sprite destroyedSprite;
+        public Sprite hittedSprite;
+        private bool destroyed = false;
+        private bool hitted = false;
 
         void Start()
         {
         }
 
-        public void Hit() { }
+        public void Hit() {
+            if (!hitted && hittedSprite != null)
+            {
+                gameObject.GetComponent<SpriteRenderer>().sprite = hittedSprite;
+                hitted = true;
+            }
+            else if (hitted)
+                Destroy();
+        }
 
-        public void Destroy() { }
+        public void Destroy() {
+            if (!destroyed && destroyedSprite != null)
+            {
+                gameObject.GetComponent<SpriteRenderer>().sprite = destroyedSprite;
+                gameObject.GetComponent<BoxCollider2D>().enabled = false;
+                destroyed = true;
+            }
+        }
     }
 }

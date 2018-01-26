@@ -7,6 +7,7 @@ public class GlassWallScript : MonoBehaviour, IDestroyable
 {
 
     public Sprite destroyedSprite;
+    private bool destroyed = false;
 
 	// Use this for initialization
 	void Start () {
@@ -24,10 +25,11 @@ public class GlassWallScript : MonoBehaviour, IDestroyable
 
     public void Destroy()
     {
-        if (destroyedSprite != null)
+        if (!destroyed && destroyedSprite != null)
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = destroyedSprite;
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            destroyed = true;
         }
     }
 }
