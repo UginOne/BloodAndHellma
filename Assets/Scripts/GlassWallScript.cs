@@ -7,11 +7,9 @@ public class GlassWallScript : MonoBehaviour, IDestroyable
 {
 
     public Sprite destroyedSprite;
-    private GameObject currentObject;
 
 	// Use this for initialization
 	void Start () {
-		currentObject = gameObject;
 	}
 	
 	// Update is called once per frame
@@ -28,8 +26,8 @@ public class GlassWallScript : MonoBehaviour, IDestroyable
     {
         if (destroyedSprite != null)
         {
-            currentObject.GetComponent<SpriteRenderer>().sprite = destroyedSprite;
-            currentObject.GetComponent<BoxCollider2D>().enabled = false;
+            gameObject.GetComponent<SpriteRenderer>().sprite = destroyedSprite;
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 }

@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\PunchAnimatorScript.cs" />
      <Compile Include="Assets\Scripts\RotateToCursorScript.cs" />
+     <Compile Include="Assets\Scripts\ToiletScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>G:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
