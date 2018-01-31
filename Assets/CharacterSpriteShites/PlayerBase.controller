@@ -49,6 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd6fa39a803f015418d4f75c531d600c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Axe: {fileID: 1138085793123998, guid: 19f90dfeea1f2774bbfe2591787b4d30, type: 2}
 --- !u!1101 &1101386976117227766
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

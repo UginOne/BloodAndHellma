@@ -6,6 +6,7 @@ TagManager:
   tags:
   - destroy
   - glass_wall
+  - weapon
   layers:
   - Default
   - TransparentFX

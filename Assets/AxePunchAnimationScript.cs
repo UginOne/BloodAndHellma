@@ -4,47 +4,37 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AxePunchAnimationScript : StateMachineBehaviour {
-                                 
+
+    public GameObject Axe;
+
+    private GameObject CurrentAxe { get; set; }
+
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        var playerHand = animator.gameObject.transform.Find("PlayerHand");
-        RaycastHit2D hit = new RaycastHit2D();
+        var player = animator.gameObject;
+        if (player == null) return;
 
-        var camera = Camera.main;
+        var weapon = player.transform.Find("PlayerHand");
 
-        var mouse = camera.ScreenToWorldPoint(Input.mousePosition);
+        if (weapon == null) return;
 
-        var x = playerHand.transform.position.x;
-        var y = playerHand.transform.position.y;
-
-        var x1 = mouse.x;
-        var y1 = mouse.y;
-        var direction = new Vector2(x1, y1);
-        var position = new Vector2(x, y);
-        Debug.Log(position + " " + direction + " ");
-        hit = Physics2D.Raycast(position, direction, 1.1f);
-
-        if (hit.collider != null && hit.collider.gameObject != null)
-        {
-            Debug.Log(hit.collider);
-            var destroyable = hit.collider.gameObject.GetComponent<IDestroyable>();
-            if (destroyable != null)
-            {
-                destroyable.Hit();
-            }
-        }
+        CurrentAxe = Instantiate(Axe, weapon.transform.position, weapon.rotation);      
     }
 
-    // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
-    //override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-    //
-    //}
+    //OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
+    override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        if (CurrentAxe != null)
+        {
+            Destroy(CurrentAxe);
+        }
+    }
 
     //OnStateExit is called when a transition ends and the state machine finishes evaluating this state
 
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
+    {                                                                                  
         animator.SetFloat("Punch", 0);
     }
 

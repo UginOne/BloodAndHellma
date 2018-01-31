@@ -18,6 +18,14 @@ namespace Assets.Scripts
         {
         }
 
+        void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.gameObject != null && collision.gameObject.tag == "weapon")
+            {
+                Hit();
+            }
+        }
+
         public void Hit() {
             if (!hitted && hittedSprite != null)
             {
