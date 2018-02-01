@@ -27,7 +27,7 @@ public class PlayerAnimationScript : MonoBehaviour {
 
     void fire()
     {
-        anim.SetFloat("Punch", 2);
-                                                                     
+        var weapon = (int)Global.weapon;
+        anim.SetFloat("Punch", 2);         
     }
 }

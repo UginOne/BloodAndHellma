@@ -13,8 +13,12 @@ public static class Global
     public static string password { get; set; }
     public static string serverAddress { get; set; }
 
+    public static allWeapon weapon { get; set; }
+
     public static string authToken { get; set; }
     public static string sessionToken { get; set; }
+
+    public enum allWeapon { axe = 0, shotGun = 1, machineGun = 2 };
 }
 
 [System.Serializable]
@@ -59,6 +63,7 @@ public class MenuCtrl : MonoBehaviour
         }
         if (!string.IsNullOrEmpty(Global.serverAddress) && Auth(Global.login, Global.password, Global.serverAddress))
         {
+            Global.weapon = Global.allWeapon.axe;
             SceneManager.LoadScene(sceneName);
         }
         else

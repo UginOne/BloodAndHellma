@@ -52,7 +52,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AxePunchAnimationScript.cs" />
+     <Compile Include="Assets\BulletScript.cs" />
      <Compile Include="Assets\Interfaces\IDestroyable.cs" />
+     <Compile Include="Assets\MachiGunScript.cs" />
      <Compile Include="Assets\MenuCtrl.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\DoorOpenSound.cs" />
@@ -64,6 +66,7 @@
      <Compile Include="Assets\Scripts\RotateToCursorScript.cs" />
      <Compile Include="Assets\Scripts\ToiletScript.cs" />
      <Compile Include="Assets\Scripts\WeaponController.cs" />
+     <Compile Include="Assets\ShotGunScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
