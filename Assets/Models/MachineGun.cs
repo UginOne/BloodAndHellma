@@ -18,7 +18,7 @@ namespace Assets.Models
 
             currentShootCount = 30; // выстрелов одновременно, например
 
-            accuracy = 0.9f; // разброс пуль, 1 = 100% точности
+            accuracy = 0.999f; // разброс пуль, 1 = 100% точности
 
             isMelee = false;
 
@@ -27,6 +27,8 @@ namespace Assets.Models
             reloadTimeOut = 2;
 
             fireRate = 0.1f;
+
+            shotBulletCount = 1;
         }
 
         public int weapon { get; set; }
@@ -38,5 +40,7 @@ namespace Assets.Models
         public int ammo { get; set; }
         public float reloadTimeOut { get; set; }
         public float fireRate { get; set; }
+
+        public int shotBulletCount { get; set; }
     }
 }

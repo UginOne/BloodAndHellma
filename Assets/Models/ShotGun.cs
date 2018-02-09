@@ -6,29 +6,29 @@ using Assets.Interfaces;
 
 namespace Assets.Models
 {
-    public class Keyboard : IWeapon
+    public class ShotGun : IWeapon
     {
-        public Keyboard()
+        public ShotGun()
         {
-            weapon = 0; //оружие в списке
+            weapon = 1; //оружие в списке
 
-            bulletSpeed = 0;
+            bulletSpeed = 10f;
 
-            shootCount = 1; // обоима, например
+            shootCount = 30; // обоима, например
 
-            currentShootCount = 1; // выстрелов одновременно, например
+            currentShootCount = 30; // выстрелов одновременно, например
 
-            accuracy = 1; // разброс пуль, 1 = 100% точности
+            accuracy = 0.99f; // разброс пуль, 1 = 100% точности
 
-            isMelee = true;
+            isMelee = false;
 
-            ammo = int.MaxValue;
+            ammo = 120;
 
-            reloadTimeOut = 0;
+            reloadTimeOut = 2;
 
-            fireRate = 0;
+            fireRate = 0.5f;
 
-            shotBulletCount = 0;
+            shotBulletCount = 3;
         }
 
         public int weapon { get; set; }

@@ -59,6 +59,7 @@
      <Compile Include="Assets\MenuCtrl.cs" />
      <Compile Include="Assets\Models\Keyboard.cs" />
      <Compile Include="Assets\Models\MachineGun.cs" />
+     <Compile Include="Assets\Models\ShotGun.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\DoorOpenSound.cs" />
      <Compile Include="Assets\Scripts\GlassWallScript.cs" />

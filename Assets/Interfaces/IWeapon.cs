@@ -52,5 +52,10 @@ namespace Assets.Interfaces
         /// скорострельность
         /// </summary>
         float fireRate { get; set; }
+
+        /// <summary>
+        /// скорострельность
+        /// </summary>
+        int shotBulletCount { get; set; }
     }
 }

@@ -43,7 +43,7 @@ public class WeaponController : MonoBehaviour
 
         CurrentWeapon = new Keyboard();
 
-        weaponList = new List<IWeapon> { CurrentWeapon, new MachineGun()};
+        weaponList = new List<IWeapon> { CurrentWeapon,new ShotGun(), new MachineGun()};
 
 	    var dropDown = transform.GetComponent<Dropdown>();
 
@@ -134,9 +134,12 @@ public class WeaponController : MonoBehaviour
             var x = weapon.transform.position.x - player.transform.position.x;
             var y = weapon.transform.position.y - player.transform.position.y;
             var bulletForce = new Vector2(x, y);
-            var firstBullet = Instantiate(bullet, weapon.transform.position, weapon.rotation);
-            firstBullet.GetComponent<Rigidbody2D>().AddForce(bulletForce * 500);
-
+        for (var i = 0; i < CurrentWeapon.shotBulletCount; i++)
+        { 
+            bulletForce = bulletForce + (Random.insideUnitCircle * (1 - CurrentWeapon.accuracy));
+            var firstBullet = Instantiate(bullet, weapon.transform.position, weapon.rotation) ;
+            firstBullet.GetComponent<Rigidbody2D>().AddForce(bulletForce);
+        }                                                                         
             CurrentWeapon.currentShootCount -= 1;
 
             fireRateTimeout = 0;
