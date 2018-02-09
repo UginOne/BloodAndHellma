@@ -7,7 +7,11 @@ namespace Assets.Interfaces
 {
     public interface IDestroyable
     {
+        int HitPoint { get; set; }
+
         void Hit();
+
+        void Hit(int damage);
 
         void Destroy();
     }

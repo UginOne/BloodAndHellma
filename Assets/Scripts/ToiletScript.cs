@@ -14,8 +14,11 @@ namespace Assets.Scripts
         private bool destroyed = false;
         private bool hitted = false;
 
+        public int HitPoint { get; set; }
+
         void Start()
         {
+            HitPoint = 2;
         }
 
         void OnCollisionEnter2D(Collision2D collision)
@@ -26,8 +29,15 @@ namespace Assets.Scripts
             }
         }
 
-        public void Hit() {
-            if (!hitted && hittedSprite != null)
+        public void Hit()
+        {
+            Hit(1);
+        }
+
+        public void Hit(int damage)
+        {
+            HitPoint = HitPoint - damage;
+            if (HitPoint > 0)
             {
                 gameObject.GetComponent<SpriteRenderer>().sprite = hittedSprite;
                 hitted = true;

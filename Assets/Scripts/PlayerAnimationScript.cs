@@ -18,16 +18,15 @@ public class PlayerAnimationScript : MonoBehaviour {
 
     // Update is called once per frame
     void FixedUpdate()
-    {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            fire();
-        }
+    {  
+        fire();  
+
     }
 
     void fire()
     {
-        var weapon = (int)Global.weapon;
+        var weapon = (int)Global.weapon;      
         anim.SetFloat("Punch", 2);         
     }
+
 }

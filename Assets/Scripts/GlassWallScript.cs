@@ -10,7 +10,9 @@ public class GlassWallScript : MonoBehaviour, IDestroyable
     private bool destroyed = false;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
+	    HitPoint = 1;
 	}
 	
 	// Update is called once per frame
@@ -24,10 +26,17 @@ public class GlassWallScript : MonoBehaviour, IDestroyable
         {
             Hit();  
         }
-    }       
+    }
+
+    public int HitPoint { get; set; }
 
     public void Hit()
     {                              
+        Destroy();
+    }
+
+    public void Hit(int damage)
+    {
         Destroy();
     }
 
