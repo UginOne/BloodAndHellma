@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: fe6aae22847125047aae16bd58df380e
+labels:
+- Character
+timeCreated: 1518185294
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TolyanSpriteSheet_0
+    21300002: TolyanSpriteSheet_1
+    21300004: TolyanSpriteSheet_2
+    21300006: TolyanSpriteSheet_3
+    21300008: TolyanSpriteSheet_4
+    21300010: TolyanSpriteSheet_5
+    21300012: TolyanSpriteSheet_6
+    21300014: TolyanSpriteSheet_7
+    21300016: TolyanSpriteSheet_8
+    21300018: TolyanSpriteSheet_9
+    21300020: TolyanSpriteSheet_10
+    21300022: TolyanSpriteSheet_11
+    21300024: TolyanSpriteSheet_12
+    21300026: TolyanSpriteSheet_13
+    21300028: TolyanSpriteSheet_14
+    21300030: TolyanSpriteSheet_15
+    21300032: TolyanSpriteSheet_16
+    21300034: TolyanSpriteSheet_17
+    21300036: TolyanSpriteSheet_18
+    21300038: TolyanSpriteSheet_19
+    21300040: TolyanSpriteSheet_20
+    21300042: TolyanSpriteSheet_21
+    21300044: TolyanSpriteSheet_22
+    21300046: TolyanSpriteSheet_23
+    21300048: TolyanSpriteSheet_24
+    21300050: TolyanSpriteSheet_25
+    21300052: TolyanSpriteSheet_26
+    21300054: TolyanSpriteSheet_27
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 728
+        width: 55
+        height: 44
+      alignment: 9
+      pivot: {x: 0.61341465, y: 0.3936726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 728
+        width: 48
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5974658, y: 0.3582306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 720
+        width: 53
+        height: 54
+      alignment: 9
+      pivot: {x: 0.67654186, y: 0.47112134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 726
+        width: 56
+        height: 63
+      alignment: 9
+      pivot: {x: 0.75062615, y: 0.2772207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 726
+        width: 56
+        height: 63
+      alignment: 9
+      pivot: {x: 0.7506267, y: 0.30197385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 728
+        width: 44
+        height: 57
+      alignment: 9
+      pivot: {x: 0.535442, y: 0.19905278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 727
+        width: 44
+        height: 34
+      alignment: 9
+      pivot: {x: 0.6063267, y: 0.40826774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 727
+        width: 45
+        height: 58
+      alignment: 9
+      pivot: {x: 0.56930745, y: 0.28490263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 724
+        width: 47
+        height: 76
+      alignment: 9
+      pivot: {x: 0.66589874, y: 0.21273161}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 724
+        width: 51
+        height: 46
+      alignment: 9
+      pivot: {x: 0.59173226, y: 0.29659238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 648
+        width: 65
+        height: 48
+      alignment: 9
+      pivot: {x: 0.7159244, y: 0.4675115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 580
+        width: 58
+        height: 49
+      alignment: 9
+      pivot: {x: 0.60754836, y: 0.3726981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 580
+        width: 62
+        height: 56
+      alignment: 9
+      pivot: {x: 0.6760671, y: 0.33291516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 580
+        width: 57
+        height: 61
+      alignment: 9
+      pivot: {x: 0.60943526, y: 0.24435174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 432
+        width: 46
+        height: 108
+      alignment: 9
+      pivot: {x: 0.53390115, y: 0.12457558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 428
+        width: 46
+        height: 134
+      alignment: 9
+      pivot: {x: 0.4660988, y: 0.092679836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 427
+        width: 48
+        height: 123
+      alignment: 9
+      pivot: {x: 0.5324885, y: 0.13232373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 428
+        width: 46
+        height: 106
+      alignment: 9
+      pivot: {x: 0.53390074, y: 0.14691564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 425
+        width: 45
+        height: 94
+      alignment: 9
+      pivot: {x: 0.4653449, y: 0.151611}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 422
+        width: 48
+        height: 121
+      alignment: 9
+      pivot: {x: 0.4675115, y: 0.11335842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 422
+        width: 48
+        height: 114
+      alignment: 9
+      pivot: {x: 0.4675115, y: 0.1306554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 422
+        width: 48
+        height: 94
+      alignment: 9
+      pivot: {x: 0.46751022, y: 0.1350208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 290
+        width: 73
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 288
+        width: 69
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 152
+        width: 45
+        height: 88
+      alignment: 9
+      pivot: {x: 0.46534526, y: 0.35823128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 152
+        width: 45
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5346544, y: 0.31866774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 152
+        width: 48
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5324888, y: 0.35493398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TolyanSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 152
+        width: 48
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33680087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -368, y: 45}
+      - {x: -382, y: 20}
+      - {x: -382, y: 7}
+      - {x: -372, y: 2}
+      - {x: -363, y: 6}
+      - {x: -377, y: -57}
+      - {x: -380, y: -67}
+      - {x: -306, y: -67}
+      - {x: -306, y: 42}
+      - {x: -318, y: 45}
+    - - {x: -217, y: 144}
+      - {x: -226, y: 106}
+      - {x: -226, y: 46}
+      - {x: -176, y: 46}
+      - {x: -176, y: 115}
+      - {x: -186, y: 144}
+    - - {x: -298, y: 57}
+      - {x: -292, y: 52}
+      - {x: -246, y: 52}
+      - {x: -246, y: 93}
+      - {x: -252, y: 128}
+      - {x: -280, y: 128}
+      - {x: -298, y: 93}
+    - - {x: -333, y: 134}
+      - {x: -334, y: 161}
+      - {x: -335, y: 164}
+      - {x: -340, y: 164}
+      - {x: -345, y: 162}
+      - {x: -373, y: 103}
+      - {x: -375, y: 96}
+      - {x: -375, y: 66}
+      - {x: -358, y: 54}
+      - {x: -332, y: 54}
+      - {x: -326, y: 62}
+      - {x: -326, y: 93}
+      - {x: -330, y: 129}
+    - - {x: -386, y: 229}
+      - {x: -389, y: 221}
+      - {x: -389, y: 203}
+      - {x: -383, y: 177}
+      - {x: -331, y: 177}
+      - {x: -327, y: 187}
+      - {x: -327, y: 214}
+      - {x: -358, y: 229}
+    - - {x: -324, y: 236}
+      - {x: -325, y: 235}
+      - {x: -325, y: 211}
+      - {x: -313, y: 180}
+      - {x: -305, y: 177}
+      - {x: -276, y: 177}
+      - {x: -258, y: 191}
+      - {x: -258, y: 213}
+      - {x: -300, y: 236}
+    - - {x: -250, y: 241}
+      - {x: -253, y: 238}
+      - {x: -253, y: 210}
+      - {x: -247, y: 181}
+      - {x: -236, y: 177}
+      - {x: -204, y: 177}
+      - {x: -192, y: 190}
+      - {x: -192, y: 213}
+      - {x: -237, y: 241}
+    - - {x: -394, y: 298}
+      - {x: -396, y: 291}
+      - {x: -396, y: 256}
+      - {x: -378, y: 246}
+      - {x: -331, y: 246}
+      - {x: -326, y: 257}
+      - {x: -326, y: 290}
+      - {x: -356, y: 298}
+    - - {x: -244, y: 374}
+      - {x: -258, y: 362}
+      - {x: -258, y: 340}
+      - {x: -245, y: 316}
+      - {x: -223, y: 316}
+      - {x: -200, y: 336}
+      - {x: -200, y: 364}
+      - {x: -216, y: 374}
+    - - {x: 227, y: 400}
+      - {x: 218, y: 364}
+      - {x: 218, y: 323}
+      - {x: 224, y: 320}
+      - {x: 265, y: 320}
+      - {x: 270, y: 324}
+      - {x: 270, y: 352}
+      - {x: 245, y: 400}
+    - - {x: 290, y: 321}
+      - {x: 326, y: 321}
+      - {x: 346, y: 328}
+      - {x: 346, y: 352}
+      - {x: 318, y: 370}
+      - {x: 295, y: 370}
+      - {x: 290, y: 369}
+    - - {x: -167, y: 389}
+      - {x: -183, y: 384}
+      - {x: -183, y: 369}
+      - {x: -181, y: 366}
+      - {x: -169, y: 368}
+      - {x: -170, y: 329}
+      - {x: -156, y: 322}
+      - {x: -128, y: 322}
+      - {x: -122, y: 326}
+      - {x: -122, y: 360}
+      - {x: -145, y: 389}
+    - - {x: -95, y: 389}
+      - {x: -98, y: 388}
+      - {x: -98, y: 336}
+      - {x: -95, y: 330}
+      - {x: -81, y: 322}
+      - {x: -38, y: 322}
+      - {x: -38, y: 368}
+      - {x: -56, y: 389}
+    - - {x: 117, y: 361}
+      - {x: 92, y: 361}
+      - {x: 79, y: 355}
+      - {x: 79, y: 326}
+      - {x: 90, y: 323}
+      - {x: 121, y: 323}
+      - {x: 127, y: 328}
+      - {x: 127, y: 347}
+      - {x: 124, y: 355}
+    - - {x: 182, y: 385}
+      - {x: 170, y: 385}
+      - {x: 152, y: 349}
+      - {x: 152, y: 331}
+      - {x: 158, y: 323}
+      - {x: 188, y: 323}
+      - {x: 201, y: 328}
+      - {x: 201, y: 356}
+      - {x: 189, y: 381}
+    - - {x: -394, y: 372}
+      - {x: -398, y: 364}
+      - {x: -398, y: 345}
+      - {x: -388, y: 324}
+      - {x: -354, y: 324}
+      - {x: -339, y: 331}
+      - {x: -339, y: 356}
+      - {x: -348, y: 372}
+    - - {x: -321, y: 374}
+      - {x: -324, y: 363}
+      - {x: -324, y: 334}
+      - {x: -314, y: 324}
+      - {x: -275, y: 324}
+      - {x: -272, y: 338}
+      - {x: -272, y: 361}
+      - {x: -284, y: 374}
+    - - {x: 25, y: 385}
+      - {x: 0, y: 355}
+      - {x: 0, y: 333}
+      - {x: 10, y: 324}
+      - {x: 33, y: 324}
+      - {x: 40, y: 326}
+      - {x: 48, y: 333}
+      - {x: 48, y: 368}
+      - {x: 45, y: 385}
+    physicsShape:
+    - - {x: -325, y: 28}
+      - {x: -345, y: 45}
+      - {x: -357, y: 45}
+      - {x: -379, y: 21}
+      - {x: -381, y: 16}
+      - {x: -381, y: 8}
+      - {x: -374, y: 1}
+      - {x: -381, y: -35}
+      - {x: -381, y: -67}
+      - {x: -317, y: -67}
+      - {x: -315, y: -65}
+      - {x: -308, y: -55}
+      - {x: -308, y: -30}
+      - {x: -309, y: -23}
+    - - {x: -225, y: 60}
+      - {x: -218, y: 46}
+      - {x: -176, y: 46}
+      - {x: -176, y: 93}
+      - {x: -188, y: 142}
+      - {x: -189, y: 143}
+      - {x: -197, y: 143}
+      - {x: -225, y: 98}
+    - - {x: -255, y: 127}
+      - {x: -268, y: 127}
+      - {x: -296, y: 95}
+      - {x: -296, y: 57}
+      - {x: -275, y: 52}
+      - {x: -251, y: 52}
+      - {x: -247, y: 60}
+      - {x: -247, y: 88}
+      - {x: -254, y: 125}
+    - - {x: -331, y: 164}
+      - {x: -341, y: 164}
+      - {x: -375, y: 114}
+      - {x: -375, y: 61}
+      - {x: -357, y: 54}
+      - {x: -326, y: 54}
+      - {x: -326, y: 130}
+      - {x: -330, y: 163}
+    - - {x: -199, y: 98}
+      - {x: -205, y: 89}
+      - {x: -205, y: 87}
+      - {x: -208, y: 87}
+      - {x: -209, y: 86}
+      - {x: -208, y: 86}
+    - - {x: -274, y: 98}
+      - {x: -271, y: 102}
+      - {x: -279, y: 93}
+      - {x: -280, y: 92}
+      - {x: -279, y: 92}
+    - - {x: -355, y: 97}
+      - {x: -355, y: 95}
+      - {x: -358, y: 95}
+      - {x: -359, y: 94}
+      - {x: -358, y: 94}
+      - {x: -353, y: 100}
+    - - {x: -354, y: 225}
+      - {x: -381, y: 228}
+      - {x: -389, y: 228}
+      - {x: -389, y: 177}
+      - {x: -346, y: 177}
+      - {x: -327, y: 186}
+      - {x: -327, y: 204}
+      - {x: -330, y: 208}
+    - - {x: -321, y: 235}
+      - {x: -324, y: 233}
+      - {x: -324, y: 218}
+      - {x: -307, y: 177}
+      - {x: -279, y: 177}
+      - {x: -260, y: 193}
+      - {x: -260, y: 211}
+      - {x: -304, y: 235}
+    - - {x: -248, y: 240}
+      - {x: -252, y: 233}
+      - {x: -252, y: 216}
+      - {x: -242, y: 177}
+      - {x: -192, y: 177}
+      - {x: -192, y: 212}
+      - {x: -240, y: 240}
+    - - {x: -395, y: 288}
+      - {x: -395, y: 279}
+      - {x: -375, y: 252}
+      - {x: -370, y: 246}
+      - {x: -346, y: 246}
+      - {x: -328, y: 253}
+      - {x: -328, y: 287}
+      - {x: -330, y: 295}
+      - {x: -344, y: 296}
+      - {x: -392, y: 296}
+      - {x: -394, y: 293}
+    - - {x: -351, y: 282}
+      - {x: -355, y: 283}
+      - {x: -358, y: 282}
+      - {x: -363, y: 276}
+      - {x: -362, y: 274}
+    - - {x: -242, y: 374}
+      - {x: -257, y: 353}
+      - {x: -257, y: 333}
+      - {x: -234, y: 316}
+      - {x: -216, y: 316}
+      - {x: -200, y: 337}
+      - {x: -200, y: 363}
+      - {x: -215, y: 374}
+    - - {x: 244, y: 400}
+      - {x: 224, y: 400}
+      - {x: 218, y: 370}
+      - {x: 218, y: 324}
+      - {x: 229, y: 320}
+      - {x: 257, y: 320}
+      - {x: 263, y: 324}
+      - {x: 268, y: 335}
+      - {x: 268, y: 362}
+    - - {x: 296, y: 370}
+      - {x: 290, y: 368}
+      - {x: 290, y: 323}
+      - {x: 297, y: 321}
+      - {x: 333, y: 321}
+      - {x: 343, y: 333}
+      - {x: 343, y: 354}
+      - {x: 325, y: 370}
+    - - {x: -171, y: 389}
+      - {x: -183, y: 375}
+      - {x: -183, y: 371}
+      - {x: -180, y: 368}
+      - {x: -168, y: 331}
+      - {x: -160, y: 322}
+      - {x: -135, y: 322}
+      - {x: -123, y: 330}
+      - {x: -123, y: 356}
+      - {x: -146, y: 389}
+    - - {x: -83, y: 389}
+      - {x: -98, y: 379}
+      - {x: -98, y: 345}
+      - {x: -79, y: 322}
+      - {x: -38, y: 322}
+      - {x: -38, y: 363}
+      - {x: -54, y: 389}
+    - - {x: 118, y: 361}
+      - {x: 91, y: 361}
+      - {x: 79, y: 357}
+      - {x: 79, y: 331}
+      - {x: 83, y: 323}
+      - {x: 118, y: 323}
+      - {x: 122, y: 324}
+      - {x: 127, y: 329}
+      - {x: 127, y: 346}
+      - {x: 124, y: 355}
+    - - {x: 173, y: 385}
+      - {x: 158, y: 376}
+      - {x: 152, y: 349}
+      - {x: 152, y: 328}
+      - {x: 164, y: 323}
+      - {x: 188, y: 323}
+      - {x: 201, y: 331}
+      - {x: 201, y: 353}
+      - {x: 180, y: 385}
+    - - {x: -397, y: 372}
+      - {x: -397, y: 347}
+      - {x: -384, y: 324}
+      - {x: -361, y: 324}
+      - {x: -339, y: 337}
+      - {x: -339, y: 358}
+      - {x: -353, y: 372}
+    - - {x: -317, y: 372}
+      - {x: -323, y: 362}
+      - {x: -323, y: 339}
+      - {x: -314, y: 324}
+      - {x: -290, y: 324}
+      - {x: -282, y: 327}
+      - {x: -272, y: 332}
+      - {x: -272, y: 361}
+      - {x: -278, y: 372}
+    - - {x: 39, y: 385}
+      - {x: 26, y: 385}
+      - {x: 0, y: 354}
+      - {x: 0, y: 333}
+      - {x: 10, y: 324}
+      - {x: 33, y: 324}
+      - {x: 48, y: 328}
+      - {x: 48, y: 370}
+      - {x: 42, y: 384}
+    - - {x: 231, y: 352}
+      - {x: 232, y: 353}
+      - {x: 240, y: 359}
+      - {x: 244, y: 355}
+      - {x: 245, y: 355}
+      - {x: 244, y: 356}
+      - {x: 241, y: 356}
+      - {x: 236, y: 354}
+      - {x: 230, y: 349}
+      - {x: 230, y: 347}
+      - {x: 231, y: 347}
+    - - {x: -237, y: 355}
+      - {x: -227, y: 359}
+      - {x: -236, y: 350}
+    - - {x: -310, y: 352}
+      - {x: -306, y: 361}
+      - {x: -297, y: 360}
+      - {x: -292, y: 360}
+      - {x: -292, y: 361}
+      - {x: -293, y: 361}
+      - {x: -294, y: 360}
+      - {x: -298, y: 360}
+      - {x: -303, y: 358}
+      - {x: -310, y: 351}
+      - {x: -309, y: 351}
+    - - {x: 310, y: 353}
+      - {x: 310, y: 356}
+      - {x: 308, y: 352}
+      - {x: 309, y: 352}
+    - - {x: -155, y: 374}
+      - {x: -152, y: 371}
+    - - {x: -70, y: 374}
+      - {x: -67, y: 371}
+    - - {x: 171, y: 358}
+      - {x: 173, y: 363}
+      - {x: 169, y: 354}
+      - {x: 171, y: 355}
+    - - {x: 32, y: 359}
+      - {x: 24, y: 359}
+      - {x: 23, y: 358}
+      - {x: 24, y: 358}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
